@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* Estilo do corpo */
+body {
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #7a7920;
+    margin-bottom: 15px;
+}
+
+/* Estilo do formulário */
+#imc-form {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Estilo dos labels e dos inputs */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #555;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Botão de cálculo */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ebf1bc;
+    color: #242423;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #dbe685;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
